@@ -1,0 +1,14 @@
+.customers {
+    width: 182px;
+    border-bottom: solid 2px #6F2CFF;
+    margin: 0 auto;
+    text-align: center;
+    &__link {
+        @include font(Roboto,16px,black);
+        font-weight: 700;
+        line-height: 24px;
+    }
+    &--booking {
+        margin-left: 27px;
+    }
+}

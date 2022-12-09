@@ -1,0 +1,12 @@
+.book-form {
+    display: flex;
+    width: 37%;
+    height: 45px;
+    &__input {
+        width: 56%;
+        height: 45px;
+        border: 1px solid #6F2CFF;
+        border-radius: 27.5px 0px 0px 27.5px;
+        text-align: center;
+    }
+}
