@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    &__logo {
+       margin-left: 12.5%;
+    }
+    &__navigation-block {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 31%;
+        height: 80px;
+        margin-left: 31%;
+        font-family: Roboto;
+        font-style: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #1F1E1E;
+    }
+}
